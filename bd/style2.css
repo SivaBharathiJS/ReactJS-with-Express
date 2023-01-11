@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0; 
+    background-color: bisque;
+    box-sizing: border-box;
+}
+div{
+    color: red;
+    background-color: black;
+}
+
+.d1{
+    height: 4000px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin: auto;
+    margin-top: 300px;
+    position: relative;
+    
+    /* margin-top: 400px; */
+    
+}
+
+.d2{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(211, 248, 3, 0.774);
+    top: 50px;
+    position:absolute;
+    overflow:hidden;        /* to overcome ourflow */
+    position: sticky; 
+    padding: 40px;
+}
+
+
+.d3{
+    top:0px;
+    position: sticky;
+    
+    margin-left: 100px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(241, 10, 191, 0.774);
+  
+    
+}
+
