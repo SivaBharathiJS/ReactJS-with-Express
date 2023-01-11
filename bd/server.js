@@ -41,7 +41,7 @@ router.get('/save',function (req,res){
 /////////
 // Starting server using listen function
 app.get('/users', (req, res) => {
-  res.json({ message: "Welcome to bezkoder application.",name:'siva'});
+  res.json({ message: "Welcome to sivapy application.",name:'siva'});
   });
   
   app.post('/users', (req, res) => {
